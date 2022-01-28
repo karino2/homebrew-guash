@@ -13,3 +13,4 @@ brew install karino2/tap/<TOOL_NAME>
 | Repository | Formula | Description |
 | ---------- | ------- | ----------- |
 | [guash](https://github.com/karino2/guash) | [formula](Formula/guash.rb) | CLI tool of creating simple GUI with shell script. |
+| [mdvcat](https://github.com/karino2/mdvcat) | [formula](Formula/mdvcat.rb) | Viewing markdown with WebView from CLI. |
