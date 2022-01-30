@@ -1,8 +1,8 @@
 class Guash < Formula
   desc "GUI app scripting by shell script."
   homepage "https://github.com/karino2/guash/"
-  url "https://github.com/karino2/guash/releases/download/v1.0.1/guash.1.0.1.zip"
-  sha256 "dc53478df55bb8728420bebd40cf5fc57bbf48c171f53d7865d4954e83734e3f"
+  url "https://github.com/karino2/guash/releases/download/v1.0.2/guash-darwin-x64-1.0.2.zip"
+  sha256 "d1822b91c47e2be0939c467fa6a5b54b74bfa44c67bd522df860e35ddfbc834f"
   license "MIT"
 
   depends_on "dotnet"

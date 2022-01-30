@@ -1,8 +1,7 @@
 class Mdvcat < Formula
   desc "Markdown viewer from command line using photino"
-  homepage "https://github.com/karino2/mdvcat"
-  url "https://github.com/karino2/mdvcat/releases/download/v1.0.1/mdvcat.1.0.1.zip"
-  sha256 "8283c5bb395e5f1a960a846bc6013daf46f3a744819a897d3a977e0eedd7fc01"
+  url "https://github.com/karino2/mdvcat/releases/download/v1.0.2/mdvcat-darwin-x64-1.0.2.zip"
+  sha256 "01a83f35abde38bb6063d9ae260b761839defa7094c575db730a7f6ae12c9209"
   license "MIT"
 
   depends_on "dotnet"
