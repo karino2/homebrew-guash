@@ -13,4 +13,13 @@ class Guash < Formula
     bin.install	"guash_filter"
     bin.install	"guash_readtext"
   end
+  
+  def caveats
+    <<~EOS
+      If you see the error saying
+      "A fatal error occurred. The required library libhostfxr.dylib could not be found."
+      You need to set DOTNET_ROOT like 
+        export DOTNET_ROOT="$(brew --prefix)/opt/dotnet/libexec"
+    EOS
+  end
 end

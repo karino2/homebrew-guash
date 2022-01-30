@@ -10,4 +10,12 @@ class Mdvcat < Formula
     bin.install "mdvcat"
   end
 
+  def caveats
+    <<~EOS
+      If you see the error saying
+      "A fatal error occurred. The required library libhostfxr.dylib could not be found."
+      You need to set DOTNET_ROOT like 
+        export DOTNET_ROOT="$(brew --prefix)/opt/dotnet/libexec"
+    EOS
+  end
 end
