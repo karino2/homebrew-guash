@@ -4,8 +4,8 @@
 class Mdvtbl < Formula
   desc "GUI markdown editor read from stdin and write to stdout."
   homepage ""
-  url "https://github.com/karino2/mdvtbl/releases/download/v1.0.0/mdvtbl-darwin-x64.1.0.0.zip"
-  sha256 "3e27b099ea44c3eec05454e7fcc21741a3c9e9b01a6165631c510cc402e8ed24"
+  url "https://github.com/karino2/mdvtbl/releases/download/v1.0.1/mdvtbl-darwin-x64.1.0.1.zip"
+  sha256 "c495170cc2ff6bf9944bb474e3c4f68f4d35bc22b48f4c6773c84f0dfd9580db"
   license "Apache-2.0"
 
   depends_on "dotnet"
